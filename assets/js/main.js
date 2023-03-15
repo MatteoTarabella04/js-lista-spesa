@@ -28,3 +28,18 @@ while (j < toBuyList.length) {
    
    j ++
 }
+
+/* ******soluzione alternativa con input dall'utente*****
+const toAddList = [];
+
+// prendo l'input dal DOM aggiungendo l'evento al bottone
+const btnElement = document.getElementById('add')
+
+// prelevo l'elemento lista dal DOM 
+const listElement = document.getElementById('list');
+
+btnElement.addEventListener('click', function(){
+   const addToList = document.getElementById('product').value;
+   listElement.innerHTML += `<li> ${addToList} </li>`
+})
+*/
